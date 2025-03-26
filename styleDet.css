@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 10px;
+    font-family: "Roboto";
+    font-size: large;
+    text-align: center;
+    background-size: cover;
+    
+  }
+
+  /* Resetando margens e preenchimento padrão */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+.detalhes{
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona um efeito sutil */
+    border-radius: 10px;
+
+}
+/* Título */
+.detalhes h1 {
+  /*text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;*/
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Subtítulo (nome oficial do país) */
+.detalhes h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* Imagem da bandeira */
+#bandeira {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+}
+
+/* Estilo das informações */
+.detalhes p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+/* Link do Google Maps */
+#mapsLink {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #0077b6;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+#mapsLink:hover {
+  text-decoration: underline;
+}
+/* Estilo para o footer */
+/* Estilo do footer */
+footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Links no footer */
+footer .footer-links {
+  margin-top: 10px;
+}
+
+footer .footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+footer .footer-links a:hover {
+  text-decoration: underline;
+}

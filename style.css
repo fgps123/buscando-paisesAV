@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  padding: 10px;
+  font-family: "Roboto";
+  font-size: medium;
+  text-align: center;
+  
+  
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header {
+  width: 100%;  /* Faz o header ocupar 100% da largura */
+  height: 100px; /* Altura do header, você pode ajustar conforme necessário */
+  background-color: #333; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo em colunas */
+  justify-content: center; /* Alinha o conteúdo verticalmente no centro */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  text-align: center; /* Centraliza o texto */
+  padding: 20px; /* Espaçamento interno */
+  
+}
+
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allCountries {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px; /* Adiciona um espaço extra entre o conteúdo e o footer */
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 5px black;
+  border-radius: 8px;
+  padding: 10px;
+  gap: 10px;
+  width: 210px;
+  transition: ease 200ms;
+  text-align: center;
+  background: linear-gradient(to right, #cccccc, #ffffff);
+
+}
+
+.country img{
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.country span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: block; 
+  text-align: center;
+  max-width: 90%;
+  overflow-wrap: break-word;
+  
+}
+
+.country:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
+  transition: ease 200ms;
+}
+
+/* Estilo para o footer */
+footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .footer-links {
+  margin-top: 10px;
+}
+
+footer .footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+footer .footer-links a:hover {
+  text-decoration: underline;
+}
